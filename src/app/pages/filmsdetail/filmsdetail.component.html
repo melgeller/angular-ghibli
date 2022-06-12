@@ -1,0 +1,10 @@
+<div class="todo" *ngIf="film">
+<img src="{{film.image}}" alt="{{film.title}}">
+<figure class="cartaGrande">
+    <p class="titleGrande">{{film.title}}</p>
+    <h3>{{film.original_title}}</h3>
+    <p>{{film.description}}</p>
+    <p class="releaseGrande">{{film.release_date}}</p>
+    <p class="director">{{film.director}}</p>
+</figure>
+</div>

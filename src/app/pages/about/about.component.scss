@@ -1,0 +1,21 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+    height: 590px;
+
+    img{
+        width: 10%;
+    }
+}
+.texto{
+    font-size: xx-large;
+
+}
+.nombre{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}

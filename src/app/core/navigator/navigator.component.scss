@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    img{
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    
+}
+
+.uls{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    li{
+    font-size: x-large;
+    margin-bottom: 20px;
+    :hover{
+        color: rgb(194, 194, 194);
+        transition: 0.5s;
+    }
+    }
+
+}
